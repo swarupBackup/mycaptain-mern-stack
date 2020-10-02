@@ -1,9 +1,9 @@
 const mongoose = require('mongoose')
 
-module.exports = User = mongoose.model('User', new mongoose.Schema({
+module.exports = User = mongoose.model("users", new mongoose.Schema({
     name: {
         type: String,
-        required: true,
+        required: true
     },
     email: {
         type: String,
